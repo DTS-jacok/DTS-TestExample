@@ -22,6 +22,7 @@ import com.ibm.rational.test.ft.object.interfaces.sapwebportal.*;
 public class Test1 extends Test1Helper
 
 {
+
        public static void testMain(Object[] args)
 
        {
@@ -39,6 +40,7 @@ public class Test1 extends Test1Helper
 				browser = axeBrowserBasestate(Dispatch.call(axe, "GetRunCategoryOption", "WebSite", "Siebel.Login").toString());
 				Dispatch.call(axe, "BasestateEnd", 0, "", "");
 
+// 
 // Subtests:Login Login01
 				Dispatch.call(axe, "SubtestBegin", "Login01", "Login with admin user", "Subtests", "Login");
 				Dispatch.call(axe, "StepBegin", "[]Login", "Set", "");  Dispatch.put(axe, "ResultCode", 0);
@@ -58,6 +60,7 @@ public class Test1 extends Test1Helper
 				axeStepEnd();
 
 				axeSubtestEnd();
+// 
 // 
             }
             catch(Exception ex)
