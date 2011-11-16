@@ -17,7 +17,7 @@
 <coolItem id="com.rational.test.ft.wswplugin.TestActionSet.DConfigure" itemType="typeToolBarContribution" x="107" y="22"/>
 <coolItem id="com.rational.test.ft.wswplugin.TestActionSet.EScript" itemType="typeToolBarContribution" x="107" y="22"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="53" y="22"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="76" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="53" y="22"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="107" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
@@ -45,11 +45,9 @@
 <expanded>
 <element path="/Test_Project"/>
 <element path="/Test_Project/axe"/>
-<element path="/Test_Project/helpers"/>
-<element path="/Test_Project/ObjectMap"/>
 </expanded>
 <selection>
-<element path="/Test_Project/ObjectMap/ObjectMap.java"/>
+<element path="/Test_Project/axe/Test1.java"/>
 </selection>
 </viewState>
 </view>
@@ -63,7 +61,7 @@
 <viewState/>
 </view>
 <view id="com.rational.test.ft.wswplugin.assets.ScriptAssetPart" partName="Script Explorer">
-<viewState DPT="1" SST="1" TOT="1" VPT="1" horizontalPosition="0" verticalPosition="0"/>
+<viewState DPT="1" SST="1" TOT="0" VPT="1" horizontalPosition="0" verticalPosition="0"/>
 </view>
 <view id="com.rational.test.ft.wswplugin.rmt.KeywordViewPart" partName="Keyword View">
 <viewState/>
@@ -238,14 +236,14 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rational.test.ft.ScriptEditor" name="Test1.java" tooltip="Test_Project/axe/Test1.java">
+<persistable path="/Test_Project/axe/Test1.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rational.test.ft.ScriptEditor" name="ObjectMap.java" tooltip="Test_Project/ObjectMap/ObjectMap.java">
 <persistable path="/Test_Project/ObjectMap/ObjectMap.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AxeMain.java" tooltip="Test_Project/helpers/AxeMain.java">
 <persistable path="/Test_Project/helpers/AxeMain.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rational.test.ft.ScriptEditor" name="Test1.java" tooltip="Test_Project/axe/Test1.java">
-<persistable path="/Test_Project/axe/Test1.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestProjectLib.java" tooltip="Test_Project/helpers/TestProjectLib.java">
 <persistable path="/Test_Project/helpers/TestProjectLib.java"/>
