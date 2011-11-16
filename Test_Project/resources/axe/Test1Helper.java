@@ -20,7 +20,7 @@ import com.rational.test.ft.vp.IFtVerificationPoint;
 import com.ibm.rational.test.ft.object.interfaces.sapwebportal.*;
 /**
  * Script Name   : <b>Test1</b><br>
- * Generated     : <b>2011/11/16 10:26:52 AM</b><br>
+ * Generated     : <b>2011/11/16 2:44:42 PM</b><br>
  * Description   : Helper class for script<br>
  * Original Host : Windows 7 x86 6.1 build 7601 Service Pack 1 <br>
  * 

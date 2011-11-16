@@ -100,3 +100,87 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational
 !ENTRY com.rational.test.ft.core 2 4 2011-11-16 10:00:23.539
 !MESSAGE CRFCN0364W: Couldn't find Test Object in application-under-test. Application may not be running or enabled, or your environment may not be enabled. Test Object may not be visible.
  Would you like to configure application for testing?
+!SESSION 2011-11-16 14:39:14.878 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 x86-32 jvmwi3260sr8-20100401_55940 (JIT enabled, AOT enabled)
+J9VM - 20100401_055940
+JIT  - r9_20100401_15339
+GC   - 20100308_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ibm.rational.rft.product.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rft.product.ide
+
+!ENTRY org.eclipse.ui.ide 4 4 2011-11-16 14:41:11.454
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2011-11-16 14:41:11.454
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2011-11-16 14:41:11.464
+!MESSAGE Could not write metadata for '/Test_Project_logs'.
+!STACK 0
+java.io.FileNotFoundException: C:\RFT_Workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Test_Project_logs\.markers (The system cannot find the path specified.)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:131)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:46)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1551)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1633)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1120)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2006)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:502)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SESSION 2011-11-16 14:41:24.564 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 x86-32 jvmwi3260sr8-20100401_55940 (JIT enabled, AOT enabled)
+J9VM - 20100401_055940
+JIT  - r9_20100401_15339
+GC   - 20100308_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ibm.rational.rft.product.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rft.product.ide
+
+!ENTRY org.eclipse.ui.ide 4 4 2011-11-16 14:42:20.574
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2011-11-16 14:42:20.584
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2011-11-16 14:42:20.584
+!MESSAGE Could not write metadata for '/Test_Project_logs'.
+!STACK 0
+java.io.FileNotFoundException: C:\RFT_Workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Test_Project_logs\.markers (The system cannot find the path specified.)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:131)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:46)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1551)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1633)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1120)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2006)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:502)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SESSION 2011-11-16 14:42:21.814 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 x86-32 jvmwi3260sr8-20100401_55940 (JIT enabled, AOT enabled)
+J9VM - 20100401_055940
+JIT  - r9_20100401_15339
+GC   - 20100308_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ibm.rational.rft.product.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rft.product.ide
+
+!ENTRY org.eclipse.ui.ide 4 4 2011-11-16 14:46:31.836
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2011-11-16 14:46:31.836
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2011-11-16 14:46:31.836
+!MESSAGE Could not write metadata for '/Test_Project_logs'.
+!STACK 0
+java.io.FileNotFoundException: C:\RFT_Workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Test_Project_logs\.markers (The system cannot find the path specified.)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:131)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:46)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1551)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1633)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1120)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2006)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:502)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
