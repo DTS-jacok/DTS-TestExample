@@ -22,11 +22,10 @@ import com.ibm.rational.test.ft.object.interfaces.sapwebportal.*;
 public class Test1 extends Test1Helper
 
 {
+
        public static void testMain(Object[] args)
 
        {
-    	   
-    	   // comment here for git
 
            ObjectMap map = new ObjectMap();         
 
@@ -34,13 +33,14 @@ public class Test1 extends Test1Helper
  
 
 
-			Dispatch.call(axe, "TestBegin", "Test1" ,"My Test Description", "C:/AXE_Projects/TestAxeProject/data/Tests.xml", "Tests", "C:/AXE_Projects/TestAxeProject/results/debug/results.xml","");
+			Dispatch.call(axe, "TestBegin", "Test1" ,"My Test Description login", "C:/AXE_Projects/TestAxeProject/data/Tests.xml", "Tests", "C:/AXE_Projects/TestAxeProject/results/debug/results.xml","");
 			try
 			{
 				Dispatch.call(axe, "BasestateBegin", "Home.siebel");
 				browser = axeBrowserBasestate(Dispatch.call(axe, "GetRunCategoryOption", "WebSite", "Siebel.Login").toString());
 				Dispatch.call(axe, "BasestateEnd", 0, "", "");
 
+// 
 // Subtests:Login Login01
 				Dispatch.call(axe, "SubtestBegin", "Login01", "Login with admin user", "Subtests", "Login");
 				Dispatch.call(axe, "StepBegin", "[]Login", "Set", "");  Dispatch.put(axe, "ResultCode", 0);
@@ -60,6 +60,8 @@ public class Test1 extends Test1Helper
 				axeStepEnd();
 
 				axeSubtestEnd();
+// 
+// 
             }
             catch(Exception ex)
             {
