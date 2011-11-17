@@ -184,3 +184,15 @@ java.io.FileNotFoundException: C:\RFT_Workspace\.metadata\.plugins\org.eclipse.c
 	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2006)
 	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:502)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SESSION 2011-11-17 06:57:40.785 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 x86-32 jvmwi3260sr8-20100401_55940 (JIT enabled, AOT enabled)
+J9VM - 20100401_055940
+JIT  - r9_20100401_15339
+GC   - 20100308_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ibm.rational.rft.product.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rft.product.ide
+
+!ENTRY com.rational.test.ft.core 2 4 2011-11-17 08:14:22.310
+!MESSAGE CRFCN0345W: The log already exists. Overwrite?
