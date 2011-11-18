@@ -20,11 +20,11 @@ import com.rational.test.ft.vp.IFtVerificationPoint;
 import com.ibm.rational.test.ft.object.interfaces.sapwebportal.*;
 /**
  * Script Name   : <b>ObjectMap</b><br>
- * Generated     : <b>2011/11/17 10:22:19 AM</b><br>
+ * Generated     : <b>2011/11/18 8:23:13 AM</b><br>
  * Description   : Helper class for script<br>
  * Original Host : Windows 7 x86 6.1 build 7601 Service Pack 1 <br>
  * 
- * @since  November 17, 2011
+ * @since  November 18, 2011
  * @author Jaco
  */
 public abstract class ObjectMapHelper extends helpers.AxeMain
@@ -139,6 +139,37 @@ public abstract class ObjectMapHelper extends helpers.AxeMain
 	{
 		return new TextGuiTestObject(
                         getMappedTestObject("Login_txtUserName"), anchor, flags);
+	}
+	
+	/**
+	 * logo_wesbankGif: with default state.
+	 *		.alt : 
+	 * 		.id : 
+	 * 		.src : https://www.wesbank.co.za/WesBankCoZa/pics/miscellaneous/calculators/logo_wesban ...
+	 * 		.title : 
+	 * 		.class : Html.IMG
+	 * 		.name : 
+	 * 		.classIndex : 0
+	 */
+	public StatelessGuiSubitemTestObject WestBank_logo() 
+	{
+		return new StatelessGuiSubitemTestObject(
+                        getMappedTestObject("WestBank_logo"));
+	}
+	/**
+	 * logo_wesbankGif: with specific test context and state.
+	 *		.alt : 
+	 * 		.id : 
+	 * 		.src : https://www.wesbank.co.za/WesBankCoZa/pics/miscellaneous/calculators/logo_wesban ...
+	 * 		.title : 
+	 * 		.class : Html.IMG
+	 * 		.name : 
+	 * 		.classIndex : 0
+	 */
+	public StatelessGuiSubitemTestObject WestBank_logo(TestObject anchor, long flags) 
+	{
+		return new StatelessGuiSubitemTestObject(
+                        getMappedTestObject("WestBank_logo"), anchor, flags);
 	}
 	
 	

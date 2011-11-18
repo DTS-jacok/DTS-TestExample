@@ -41,7 +41,15 @@
 </editors>
 <views>
 <view id="com.rational.test.ft.wswplugin.project.TestExplorerPart" partName="Functional Test Projects">
-<viewState horizontalPosition="0" verticalPosition="0"/>
+<viewState horizontalPosition="0" verticalPosition="0">
+<expanded>
+<element path="/Test_Project"/>
+<element path="/Test_Project/ObjectMap"/>
+</expanded>
+<selection>
+<element path="/Test_Project/ObjectMap/ObjectMap.java"/>
+</selection>
+</viewState>
 </view>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
 <viewState/>
@@ -53,13 +61,17 @@
 <viewState/>
 </view>
 <view id="com.rational.test.ft.wswplugin.assets.ScriptAssetPart" partName="Script Explorer">
-<viewState DPT="1" SST="0" TOT="0" VPT="1" horizontalPosition="0" verticalPosition="0"/>
+<viewState DPT="1" SST="1" TOT="1" VPT="1" horizontalPosition="0" verticalPosition="0"/>
 </view>
 <view id="com.rational.test.ft.wswplugin.rmt.KeywordViewPart" partName="Keyword View">
 <viewState/>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Warnings (1 item)"/>
+<category IMemento.internal.id="Errors"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
