@@ -30,6 +30,12 @@ public class ObjectMap extends ObjectMapHelper
 	public void testMain(Object[] args) 
 	{
 		
-	
+		sblLoginPageTabList().gotoScreen("Marketing Plans");
+		
+		
+		
+		// 
+		sblLoginPageTabList().gotoScreen("Marketing Plans Screen");
+		
 	}
 }

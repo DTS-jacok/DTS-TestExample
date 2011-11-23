@@ -1,0 +1,81 @@
+﻿<HTML>
+<HEAD>
+<META HTTP-EQUIV="charset" CONTENT="utf-8">
+<TITLE>Playback Log for ObjectMap.ObjectMap</TITLE>
+<STYLE TYPE="text/css">
+<!--
+  table caption {color: darkblue; font-size: x-large; font-weight: bold}
+  td {align: left; font-weight: bold}
+  td.fail {color: darkred; width: 10% }
+  td.warn {color: darkgoldenrod; width: 10% }
+  td.pass {color: darkgreen; width: 10% }
+  td.unkn {color: darkcyan; width: 10% }
+  td.info {width: 10% }
+  td.time {width: 30%; font-weight: normal}
+  td.note {align: left; font-weight: bold}
+  li {font-weight: normal}
+-->
+</STYLE>
+<SCRIPT>
+<!--
+function comparator(logDir,base,exp,act)
+{
+	try{
+		document.ComparatorApplet.startComparatorEx(base,exp,act,logDir);
+	}
+	catch(e){
+		alert("CRFCN0309E: Error creating verification point display:\nCRFCN0310E: An enabled JRE (1.3.1_02 or better) must be associated with the browser to view VP results");
+	}
+}
+//-->
+</SCRIPT>
+</HEAD>
+<BODY>
+<TABLE WIDTH="100%" border="1" rules="rows" summary="Log Events">
+<SCRIPT>
+<!--
+if (self == top)
+	document.write('<CAPTION>Log: ObjectMap.ObjectMap</CAPTION>')
+//-->
+</SCRIPT>
+<TR>
+<TD>&nbsp;</TD>
+<TD CLASS="time">23-Nov-2011 02:22:56.676 PM</TD>
+<TD CLASS="note">Script start [ObjectMap.ObjectMap]</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>1</LI>
+<LI><I>script_iter_count = </I>0</LI>
+<LI><I>script_name = </I>ObjectMap.ObjectMap</LI>
+<LI><I>script_id = </I>ObjectMap.ObjectMap.java</LI>
+</UL>
+</TD></TR>
+<TR>
+<TD ID="fail0" CLASS="fail">FAIL</TD>
+<TD CLASS="time">23-Nov-2011 02:22:57.406 PM</TD>
+<TD CLASS="note">ObjectMap.ObjectMap.testMain had an unhandled exception.</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>exception_context = </I>GotoScreen() called on siebel.SiebPageTabsTestObject(Name: <b>sblLoginPageTabList</b>, Map: SiebPageTabs).</LI>
+<LI><I>exception_name = </I>com.rational.test.ft.Domain.Siebel.SiebelItemNotFoundException</LI>
+<LI><I>exception_message = </I>SiebPageTab.GotoScreen("Marketing Plans"), Screen "Marketing Plans" is not valid</LI>
+<LI><I>script_name = </I>ObjectMap.ObjectMap</LI>
+<LI><I>script_id = </I>ObjectMap.ObjectMap.java</LI>
+<LI><I>line_number = </I>33</LI>
+<LI><I>exception_stack = </I>   at Rational.Test.Ft.Domain.Siebel.SiebPageTabsProxy.GotoScreen(String Screen)<BR>   at System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)<BR>   at System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)<BR>	------------------------------<BR>	at com.rational.test.ft.object.interfaces.ClientTestObject.invokeProxy(ClientTestObject.java:343)<BR>	at com.rational.test.ft.object.interfaces.siebel.SiebPageTabsTestObject.gotoScreen(SiebPageTabsTestObject.java:123)<BR>	at ObjectMap.ObjectMap.testMain(ObjectMap.java:33)<BR>	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:587)<BR>	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:198)<BR>	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)<BR>	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)<BR>	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)<BR>	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)<BR>	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)<BR>	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)<BR>	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)<BR>	at org.eclipse.equinox.launcher.Main.main(Main.java:1383)<BR>	at org.eclipse.core.launcher.Main.main(Main.java:34)<BR></LI>
+<LI><I>screen_snapshot = </I><A href=rational_ft_screensnapshot.jpg><IMG src=rational_ft_screensnapshot.jpg height=120 width=160 align=middle></IMG> Click to view full size</A></LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="fail">FAIL</TD>
+<TD CLASS="time">23-Nov-2011 02:22:57.406 PM</TD>
+<TD CLASS="note">Script end [ObjectMap.ObjectMap]</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>script_name = </I>ObjectMap.ObjectMap</LI>
+<LI><I>script_id = </I>ObjectMap.ObjectMap.java</LI>
+</UL>
+</TD></TR>
+</TABLE>
+</BODY>
+</HTML>

@@ -58,16 +58,14 @@ public class Test1 extends Test1Helper
 				Dispatch.call(axe, "StepBegin", "imglogin", "Set", "");  Dispatch.put(axe, "ResultCode", 0);
 				map.sblLogin_imglogin().click();
 				axeStepEnd();
+				
+				sleep(10);
 
-				Dispatch.call(axe, "StepBegin", "imglogin", "sleep(5)", "");  Dispatch.put(axe, "ResultCode", 0);
-				sleep(5);
+				Dispatch.call(axe, "StepBegin", "[]sblLoginPageTabList", "Set2", "Marketing Calendar Screen");  Dispatch.put(axe, "ResultCode", 0);
+				map.sblLoginPageTabList().gotoScreen("Marketing Calendar Screen");
 				axeStepEnd();
 
-				Dispatch.call(axe, "StepBegin", "[]sblLoginPageTabList", "Set2", "Marketing Plans Screen");  Dispatch.put(axe, "ResultCode", 0);
-				map.sblLoginPageTabList().gotoScreen("Marketing Plans Screen");
-				axeStepEnd();
-
-				Dispatch.call(axe, "StepBegin", "[]sblLoginPageTabList", "Set(Marketing Calendar Screen)", "Marketing Plans Screen");  Dispatch.put(axe, "ResultCode", 0);
+				Dispatch.call(axe, "StepBegin", "[]sblLoginPageTabList", "Set(Marketing Calendar Screen)", "Marketing Calendar Screen");  Dispatch.put(axe, "ResultCode", 0);
 				map.sblLoginPageTabList().gotoScreen("Marketing Calendar Screen");
 				axeStepEnd();
 

@@ -20,11 +20,11 @@ import com.rational.test.ft.vp.IFtVerificationPoint;
 import com.ibm.rational.test.ft.object.interfaces.sapwebportal.*;
 /**
  * Script Name   : <b>ObjectMap</b><br>
- * Generated     : <b>2011/11/18 8:23:13 AM</b><br>
+ * Generated     : <b>2011/11/23 2:23:20 PM</b><br>
  * Description   : Helper class for script<br>
  * Original Host : Windows 7 x86 6.1 build 7601 Service Pack 1 <br>
  * 
- * @since  November 18, 2011
+ * @since  November 23, 2011
  * @author Jaco
  */
 public abstract class ObjectMapHelper extends helpers.AxeMain
@@ -35,10 +35,10 @@ public abstract class ObjectMapHelper extends helpers.AxeMain
 	 * 		.class : Html.HtmlDocument
 	 * 		.url : http://192.168.1.201:7780/marketing_enu/start.swe?SWECmd=Login&SWEPL=1&_sn=Hd5sN ...
 	 */
-	public DocumentTestObject Login() 
+	public DocumentTestObject sblLogin() 
 	{
 		return new DocumentTestObject(
-                        getMappedTestObject("Login"));
+                        getMappedTestObject("sblLogin"));
 	}
 	/**
 	 * SiebelMarketing: with specific test context and state.
@@ -46,10 +46,10 @@ public abstract class ObjectMapHelper extends helpers.AxeMain
 	 * 		.class : Html.HtmlDocument
 	 * 		.url : http://192.168.1.201:7780/marketing_enu/start.swe?SWECmd=Login&SWEPL=1&_sn=Hd5sN ...
 	 */
-	public DocumentTestObject Login(TestObject anchor, long flags) 
+	public DocumentTestObject sblLogin(TestObject anchor, long flags) 
 	{
 		return new DocumentTestObject(
-                        getMappedTestObject("Login"), anchor, flags);
+                        getMappedTestObject("sblLogin"), anchor, flags);
 	}
 	
 	/**
@@ -62,10 +62,10 @@ public abstract class ObjectMapHelper extends helpers.AxeMain
 	 * 		.name : 
 	 * 		.classIndex : 0
 	 */
-	public StatelessGuiSubitemTestObject Login_imglogin() 
+	public StatelessGuiSubitemTestObject sblLogin_imglogin() 
 	{
 		return new StatelessGuiSubitemTestObject(
-                        getMappedTestObject("Login_imglogin"));
+                        getMappedTestObject("sblLogin_imglogin"));
 	}
 	/**
 	 * Login: with specific test context and state.
@@ -77,10 +77,10 @@ public abstract class ObjectMapHelper extends helpers.AxeMain
 	 * 		.name : 
 	 * 		.classIndex : 0
 	 */
-	public StatelessGuiSubitemTestObject Login_imglogin(TestObject anchor, long flags) 
+	public StatelessGuiSubitemTestObject sblLogin_imglogin(TestObject anchor, long flags) 
 	{
 		return new StatelessGuiSubitemTestObject(
-                        getMappedTestObject("Login_imglogin"), anchor, flags);
+                        getMappedTestObject("sblLogin_imglogin"), anchor, flags);
 	}
 	
 	/**
@@ -92,10 +92,10 @@ public abstract class ObjectMapHelper extends helpers.AxeMain
 	 * 		.name : SWEPassword
 	 * 		.classIndex : 0
 	 */
-	public TextGuiTestObject Login_txtPassword() 
+	public TextGuiTestObject sblLogin_txtPassword() 
 	{
 		return new TextGuiTestObject(
-                        getMappedTestObject("Login_txtPassword"));
+                        getMappedTestObject("sblLogin_txtPassword"));
 	}
 	/**
 	 * SWEPassword: with specific test context and state.
@@ -106,10 +106,10 @@ public abstract class ObjectMapHelper extends helpers.AxeMain
 	 * 		.name : SWEPassword
 	 * 		.classIndex : 0
 	 */
-	public TextGuiTestObject Login_txtPassword(TestObject anchor, long flags) 
+	public TextGuiTestObject sblLogin_txtPassword(TestObject anchor, long flags) 
 	{
 		return new TextGuiTestObject(
-                        getMappedTestObject("Login_txtPassword"), anchor, flags);
+                        getMappedTestObject("sblLogin_txtPassword"), anchor, flags);
 	}
 	
 	/**
@@ -121,10 +121,10 @@ public abstract class ObjectMapHelper extends helpers.AxeMain
 	 * 		.name : SWEUserName
 	 * 		.classIndex : 0
 	 */
-	public TextGuiTestObject Login_txtUserName() 
+	public TextGuiTestObject sblLogin_txtUserName() 
 	{
 		return new TextGuiTestObject(
-                        getMappedTestObject("Login_txtUserName"));
+                        getMappedTestObject("sblLogin_txtUserName"));
 	}
 	/**
 	 * SWEUserName: with specific test context and state.
@@ -135,41 +135,33 @@ public abstract class ObjectMapHelper extends helpers.AxeMain
 	 * 		.name : SWEUserName
 	 * 		.classIndex : 0
 	 */
-	public TextGuiTestObject Login_txtUserName(TestObject anchor, long flags) 
+	public TextGuiTestObject sblLogin_txtUserName(TestObject anchor, long flags) 
 	{
 		return new TextGuiTestObject(
-                        getMappedTestObject("Login_txtUserName"), anchor, flags);
+                        getMappedTestObject("sblLogin_txtUserName"), anchor, flags);
 	}
 	
 	/**
-	 * logo_wesbankGif: with default state.
-	 *		.alt : 
-	 * 		.id : 
-	 * 		.src : https://www.wesbank.co.za/WesBankCoZa/pics/miscellaneous/calculators/logo_wesban ...
-	 * 		.title : 
-	 * 		.class : Html.IMG
-	 * 		.name : 
-	 * 		.classIndex : 0
+	 * SiebPageTabs: with default state.
+	 *		ClassName : SiebPageTabs
+	 * 		.class : SiebPageTabs
+	 * 		RepositoryName : SiebPageTabs
 	 */
-	public StatelessGuiSubitemTestObject WestBank_logo() 
+	public SiebPageTabsTestObject sblLoginPageTabList() 
 	{
-		return new StatelessGuiSubitemTestObject(
-                        getMappedTestObject("WestBank_logo"));
+		return new SiebPageTabsTestObject(
+                        getMappedTestObject("sblLoginPageTabList"));
 	}
 	/**
-	 * logo_wesbankGif: with specific test context and state.
-	 *		.alt : 
-	 * 		.id : 
-	 * 		.src : https://www.wesbank.co.za/WesBankCoZa/pics/miscellaneous/calculators/logo_wesban ...
-	 * 		.title : 
-	 * 		.class : Html.IMG
-	 * 		.name : 
-	 * 		.classIndex : 0
+	 * SiebPageTabs: with specific test context and state.
+	 *		ClassName : SiebPageTabs
+	 * 		.class : SiebPageTabs
+	 * 		RepositoryName : SiebPageTabs
 	 */
-	public StatelessGuiSubitemTestObject WestBank_logo(TestObject anchor, long flags) 
+	public SiebPageTabsTestObject sblLoginPageTabList(TestObject anchor, long flags) 
 	{
-		return new StatelessGuiSubitemTestObject(
-                        getMappedTestObject("WestBank_logo"), anchor, flags);
+		return new SiebPageTabsTestObject(
+                        getMappedTestObject("sblLoginPageTabList"), anchor, flags);
 	}
 	
 	

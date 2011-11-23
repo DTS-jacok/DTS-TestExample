@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="30" version="2.0">
+<workbench progressCount="37" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="384" y="54">
 <fastViewData fastViewLocation="1024"/>
@@ -44,6 +44,7 @@
 <viewState horizontalPosition="0" verticalPosition="0">
 <expanded>
 <element path="/Test_Project"/>
+<element path="/Test_Project/axe"/>
 <element path="/Test_Project/ObjectMap"/>
 </expanded>
 <selection>
@@ -68,10 +69,6 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings (1 item)"/>
-<category IMemento.internal.id="Errors"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -197,7 +194,7 @@
 </folder>
 </info>
 <info folder="true" part="com.rational.test.ft.wswplugin.OutputFolder" ratio="0.7496136" ratioLeft="485" ratioRight="162" relationship="4" relative="com.rational.test.ft.wswplugin.RightFolder">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<folder activePageID="com.rational.test.ft.wswplugin.dp.DatapoolPart" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
