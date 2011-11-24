@@ -20,11 +20,11 @@ import com.rational.test.ft.vp.IFtVerificationPoint;
 import com.ibm.rational.test.ft.object.interfaces.sapwebportal.*;
 /**
  * Script Name   : <b>ObjectMap</b><br>
- * Generated     : <b>2011/11/23 2:23:20 PM</b><br>
+ * Generated     : <b>2011/11/24 6:52:48 AM</b><br>
  * Description   : Helper class for script<br>
  * Original Host : Windows 7 x86 6.1 build 7601 Service Pack 1 <br>
  * 
- * @since  November 23, 2011
+ * @since  November 24, 2011
  * @author Jaco
  */
 public abstract class ObjectMapHelper extends helpers.AxeMain

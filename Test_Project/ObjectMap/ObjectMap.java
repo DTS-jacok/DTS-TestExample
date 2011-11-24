@@ -1,4 +1,6 @@
 package ObjectMap;
+import java.util.List;
+
 import resources.ObjectMap.ObjectMapHelper;
 import com.rational.test.ft.*;
 import com.rational.test.ft.object.interfaces.*;
@@ -29,6 +31,8 @@ public class ObjectMap extends ObjectMapHelper
 	 */
 	public void testMain(Object[] args) 
 	{
+			
+		
 		
 	
 	}
