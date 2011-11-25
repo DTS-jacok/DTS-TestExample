@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="37" version="2.0">
+<workbench progressCount="36" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="160" y="32">
 <fastViewData fastViewLocation="1024"/>
@@ -41,7 +41,14 @@
 </editors>
 <views>
 <view id="com.rational.test.ft.wswplugin.project.TestExplorerPart" partName="Functional Test Projects">
-<viewState horizontalPosition="0" verticalPosition="0"/>
+<viewState horizontalPosition="0" verticalPosition="0">
+<expanded>
+<element path="/Test_Project"/>
+</expanded>
+<selection>
+<element path="/Test_Project"/>
+</selection>
+</viewState>
 </view>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
 <viewState/>
@@ -53,7 +60,7 @@
 <viewState/>
 </view>
 <view id="com.rational.test.ft.wswplugin.assets.ScriptAssetPart" partName="Script Explorer">
-<viewState DPT="1" SST="1" TOT="1" VPT="1" horizontalPosition="0" verticalPosition="0"/>
+<viewState DPT="1" SST="0" TOT="0" VPT="1" horizontalPosition="0" verticalPosition="0"/>
 </view>
 <view id="com.rational.test.ft.wswplugin.rmt.KeywordViewPart" partName="Keyword View">
 <viewState/>
