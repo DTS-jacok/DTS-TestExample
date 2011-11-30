@@ -1,0 +1,14 @@
+package helpers;
+
+import com.rational.test.ft.script.RationalTestScript;
+
+/**
+ * Description   : Super class for script helper
+ * 
+ * @author Jaco
+ * @since  November 30, 2011
+ */
+public abstract class CustomLib extends RationalTestScript
+{
+	//TODO Insert shared functionality here
+}

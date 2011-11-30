@@ -1,0 +1,49 @@
+package helpers;
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.NodeList;
+import org.xml.sax.SAXException;
+
+import com.jacob.com.Dispatch;
+import com.rational.test.ft.script.RationalTestScript;
+
+
+import objectmap.objectmap;
+import resources.axe.Test2Helper;
+import com.jacob.activeX.ActiveXComponent;
+import com.jacob.com.Variant;
+import com.jacob.com.Dispatch;
+import com.rational.test.ft.*;
+import com.rational.test.ft.object.interfaces.*;
+import com.rational.test.ft.object.interfaces.SAP.*;
+import com.rational.test.ft.object.interfaces.WPF.*;
+import com.rational.test.ft.object.interfaces.dojo.*;
+import com.rational.test.ft.object.interfaces.siebel.*;
+import com.rational.test.ft.object.interfaces.flex.*;
+import com.rational.test.ft.object.interfaces.generichtmlsubdomain.*;
+import com.rational.test.ft.script.*;
+import com.rational.test.ft.value.*;
+import com.rational.test.ft.vp.*;
+import com.ibm.rational.test.ft.object.interfaces.sapwebportal.*;
+import helpers.AxeMain;
+
+/**
+ * Description   : Super class for script helper
+ * 
+ * @author Jaco
+ * @since  November 15, 2011
+ */
+public class TestHarnessAPILib extends RationalTestScript
+{
+
+
+	
+}
