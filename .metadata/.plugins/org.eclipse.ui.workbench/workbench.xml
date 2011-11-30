@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="31" version="2.0">
 <workbenchAdvisor/>
-<window height="768" maximized="true" width="1024" x="384" y="54">
+<window height="768" maximized="true" width="1024" x="160" y="32">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -17,11 +17,12 @@
 <coolItem id="com.rational.test.ft.wswplugin.TestActionSet.DConfigure" itemType="typeToolBarContribution" x="107" y="22"/>
 <coolItem id="com.rational.test.ft.wswplugin.TestActionSet.EScript" itemType="typeToolBarContribution" x="107" y="22"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="53" y="22"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="53" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="76" y="22"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="107" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.rational.test.ft.ScriptEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.ibm.rational.test.ft.visualscript.ui.editors.SimplifiedScriptEditor" itemType="typePlaceholder" x="-1" y="-1"/>
@@ -41,7 +42,20 @@
 </editors>
 <views>
 <view id="com.rational.test.ft.wswplugin.project.TestExplorerPart" partName="Functional Test Projects">
+<<<<<<< HEAD
 <viewState horizontalPosition="0" verticalPosition="0"/>
+=======
+<viewState horizontalPosition="0" verticalPosition="0">
+<expanded>
+<element path="/TestHarnessAPI"/>
+<element path="/TestHarnessAPI/axe"/>
+<element path="/TestHarnessAPI/helpers"/>
+</expanded>
+<selection>
+<element path="/TestHarnessAPI/axe/Test2.java"/>
+</selection>
+</viewState>
+>>>>>>> development
 </view>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
 <viewState/>
@@ -60,9 +74,16 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<<<<<<< HEAD
 <expanded>&#x0A;<category IMemento.internal.id="Errors"/>
+=======
+<expanded>
+<category IMemento.internal.id="Warnings"/>
+<category IMemento.internal.id="Warnings (1 item)"/>
+<category IMemento.internal.id="Errors"/>
+>>>>>>> development
 </expanded>
-<columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
+<columnWidths org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -171,7 +192,11 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.12901196" ratioLeft="205" ratioRight="1384" relationship="2" relative="com.rational.test.ft.wswplugin.project.TestExplorerFolder"/>
+<<<<<<< HEAD
 <info folder="true" part="com.rational.test.ft.wswplugin.RightFolder" ratio="0.5988414" ratioLeft="827" ratioRight="554" relationship="2" relative="org.eclipse.ui.editorss">
+=======
+<info folder="true" part="com.rational.test.ft.wswplugin.RightFolder" ratio="0.63866764" ratioLeft="882" ratioRight="499" relationship="2" relative="org.eclipse.ui.editorss">
+>>>>>>> development
 <folder activePageID="com.rational.test.ft.wswplugin.assets.ScriptAssetPart" appearance="2" expanded="2">
 <page content="com.rational.test.ft.wswplugin.assets.ScriptAssetPart" label="Script Explorer"/>
 <page content="com.ibm.rational.test.ft.visualscript.ui.views.ApplicationViewPart" label="Application View"/>
@@ -187,7 +212,7 @@
 </folder>
 </info>
 <info folder="true" part="com.rational.test.ft.wswplugin.OutputFolder" ratio="0.7496136" ratioLeft="485" ratioRight="162" relationship="4" relative="com.rational.test.ft.wswplugin.RightFolder">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<folder activePageID="com.rational.test.ft.wswplugin.dp.DatapoolPart" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
@@ -227,6 +252,7 @@
 </trimLayout>
 </window>
 <mruList>
+<<<<<<< HEAD
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AxeMain.java" tooltip="FinQuote/helpers/AxeMain.java">
 <persistable path="/FinQuote/helpers/AxeMain.java"/>
 </file>
@@ -235,10 +261,15 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CustomLib.java" tooltip="FinQuote/helpers/CustomLib.java">
 <persistable path="/FinQuote/helpers/CustomLib.java"/>
+=======
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rational.test.ft.ScriptEditor" name="Test2.java" tooltip="TestHarnessAPI/axe/Test2.java">
+<persistable path="/TestHarnessAPI/axe/Test2.java"/>
+>>>>>>> development
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rational.test.ft.ScriptEditor" name="Test1.java" tooltip="Test_Project/axe/Test1.java">
-<persistable path="/Test_Project/axe/Test1.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AxeMain.java" tooltip="TestHarnessAPI/helpers/AxeMain.java">
+<persistable path="/TestHarnessAPI/helpers/AxeMain.java"/>
 </file>
+<<<<<<< HEAD
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestProjectLib.java" tooltip="Test_Project/helpers/TestProjectLib.java">
 <persistable path="/Test_Project/helpers/TestProjectLib.java"/>
 </file>
@@ -247,6 +278,16 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rational.test.ft.ScriptEditor" name="ObjectMap.java" tooltip="Test_Project/ObjectMap/ObjectMap.java">
 <persistable path="/Test_Project/ObjectMap/ObjectMap.java"/>
+=======
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CustomLib.java" tooltip="TestHarnessAPI/helpers/CustomLib.java">
+<persistable path="/TestHarnessAPI/helpers/CustomLib.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="PrintStream.class" tooltip="java.io.PrintStream">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=TestHarnessAPI/C:\/Program Files \(x86)\/IBM\/SDP\/jdk\/jre\/lib\/rt.jar&lt;java.io(PrintStream.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rational.test.ft.ScriptEditor" name="Test3.java" tooltip="TestHarnessAPI/axe/Test3.java">
+<persistable path="/TestHarnessAPI/axe/Test3.java"/>
+>>>>>>> development
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AxeMain.java" tooltip="Automation_Template/helpers/AxeMain.java">
 <persistable path="/Automation_Template/helpers/AxeMain.java"/>
