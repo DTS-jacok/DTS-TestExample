@@ -19,21 +19,21 @@ import com.rational.test.ft.script.*;
 import com.rational.test.ft.vp.IFtVerificationPoint;
 import com.ibm.rational.test.ft.object.interfaces.sapwebportal.*;
 /**
- * Script Name   : <b>Test2</b><br>
- * Generated     : <b>2011/12/01 6:41:57 AM</b><br>
+ * Script Name   : <b>Test3</b><br>
+ * Generated     : <b>2011/12/01 6:42:03 AM</b><br>
  * Description   : Helper class for script<br>
  * Original Host : Windows 7 x86 6.1 build 7601 Service Pack 1 <br>
  * 
  * @since  December 01, 2011
  * @author Jaco
  */
-public abstract class Test2Helper extends helpers.AxeMain
+public abstract class Test3Helper extends helpers.AxeMain
 {
 	
 
-	protected Test2Helper()
+	protected Test3Helper()
 	{
-		setScriptName("axe.Test2");
+		setScriptName("axe.Test3");
 	}
 	
 }
