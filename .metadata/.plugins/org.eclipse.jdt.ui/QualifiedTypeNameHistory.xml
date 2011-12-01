@@ -7,4 +7,6 @@
 <fullyQualifiedTypeName name="helpers.AxeMain"/>
 <fullyQualifiedTypeName name="helpers.TestHarnessAPILib"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="resources.axe.Test2Helper"/>
+<fullyQualifiedTypeName name="resources.axe.Test1Helper"/>
 </qualifiedTypeNameHistroy>
