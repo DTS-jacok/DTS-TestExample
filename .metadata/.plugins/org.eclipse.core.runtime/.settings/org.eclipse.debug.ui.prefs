@@ -1,4 +1,0 @@
-#Tue Nov 15 15:22:46 CAT 2011
-eclipse.preferences.version=1
-preferredTargets=default\:default|
-org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8"?><launchPerspectives>\r\n<launchPerspective configurationType\="com.ibm.rational.test.ft.rftScript" mode\="debug" perspective\="com.rational.test.ft.wswplugin.TestDebugPerspective"/>\r\n</launchPerspectives>
