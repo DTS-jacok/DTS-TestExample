@@ -1,6 +1,8 @@
-#Fri Nov 25 13:40:30 CAT 2011
+#Mon Dec 05 13:40:01 CAT 2011
 org.eclipse.jdt.ui.exception.name=e
+formatter_settings_version=11
 eclipse.preferences.version=1
+formatter_profile=org.eclipse.jdt.ui.default.eclipse_profile
 org.eclipse.jdt.ui.keywordthis=false
 org.eclipse.jdt.ui.overrideannotation=true
 org.eclipse.jdt.ui.gettersetter.use.is=true
